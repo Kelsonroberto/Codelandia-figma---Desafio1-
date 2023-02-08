@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+header{     
+    background: linear-gradient(
+        to right,
+        #574AE8, 
+        #3EA1DB
+    );
+    padding: 2rem 20rem;
+    margin-bottom: 4rem;
+   
+}
+.cabecario{    
+    border-radius: 0.3rem;
+}
+
+.cabecario-elementos{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    
+    
+}
+
+.cabecario-elementos-apresentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    
+
+}
+
+input{        
+    background: black;
+    color: #fff;     
+    width: 100%;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+body{
+    
+    background-color: #F3F5F7;
+} 
+
+.bloco{  
+    border-radius: 0.3rem;
+    background-color: #FFFFFF;
+    margin: 2rem 20rem;
+    border-style: none;
+    padding: 1rem;
+}
+.bloco-dados{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo{
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.titulo{
+    font-size: 1.625rem;
+}
+
+#icon{
+    
+    background: url(./img/search.svg) no-repeat left;
+    margin: 0.8rem;
+    background-size: 20px;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;       
+}
+
+img:hover{
+    cursor: pointer;
+    zoom: 1.1;
+}
+
+input::placeholder{
+    color: #f3f5f7;
+}
+   
+
+@media (max-width: 1000px) {
+    header {
+        padding: 2rem 4rem;
+        
+    }
+
+    .bloco {
+        margin: 2rem 4rem;
+        
+    }
+}
+
+
